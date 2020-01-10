@@ -22,7 +22,7 @@ export class ReactMyGroups extends React.Component<IReactMyGroupsProps, IReactMy
   public render(): React.ReactElement<IReactMyGroupsProps> {
     return (
       <div className={ styles.reactMyGroups }>
-        <h1>My Office 365 Groups</h1>
+        <h1>My Microsoft Teams</h1>
           <GroupList groups={this.state.groups} onRenderItem={(item: any, index: number) => this._onRenderItem(item, index)}/>
       </div>
     );
